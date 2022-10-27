@@ -16,32 +16,18 @@ public class Lab05vst extends Applet {
         int y2 = 640;
         g.drawRect(10, 10, width, height);
     }
-        // Draw bottom-left corner
-
-
-        // Draw bottom-right corner
-
-
-        // Draw top-right corner
-
-
-        // Draw top-left corner
-
 
         {
-            // Draw 50 circles that go in a diagonal line
-
-            int x = 20;
-            int y = 20;
-            int width = 30;
-            int height = 30;
-            for (int k = 0; k < 50; k++){
-                g.drawOval(x, y, width, height);
-                x += 5;
-                y += 5;
-            }
+            for (int x = 1; x <= 640; x++) ;
+            g.drawLIne();
 
 
         }
+
+
     }
+
+
+
+
 
