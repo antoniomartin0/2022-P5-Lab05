@@ -15,18 +15,19 @@ public class Lab05vst extends Applet {
         int x2 = 990;
         int y2 = 640;
         g.drawRect(10, 10, width, height);
-    }
 
-        {
-            for (int x = 1; x <= 640; x++) ;
-            g.drawLIne();
+
+        for (int x = 1; x <= 60; x++){
+            g.drawLine(x1,y1,x2,y2);
+
+
 
 
         }
 
 
     }
-
+}
 
 
 
