@@ -16,11 +16,14 @@ public class Lab05vst extends Applet {
         int y2 = 640;
         g.drawRect(10, 10, width, height);
 
+        // Draw bottom-left corner
 
-        for (int x = 1; x <= 60; x++){
+        
+        // Draw bottom-right corner
+        for (int x = 1; x <= 50; x++){
             g.drawLine(x1,y1,x2,y2);
             x1 += 20;
-            y2 -= 20;
+            y2 -= 13;
 
         }
 
